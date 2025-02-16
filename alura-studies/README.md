@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+# 🐸 Eat the Frog in the Morning
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React + TypeScript application inspired by Mark Twain's famous quote: "Eat a live frog first thing in the morning and nothing worse will happen to you the rest of the day."
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Eat the Frog is a minimalist task management tool that helps users focus on their most important task of the day. Instead of managing multiple tasks, the application encourages users to identify and tackle their highest-priority task ("the frog") with a dedicated time allocation.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Create and define a single primary task
+- Set a specific time duration for task completion
+- Clean and intuitive user interface
+- Responsive design for all devices
+- Local storage persistence
+- Timer functionality with notifications
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React 18
+- TypeScript
+- Local Storage API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (version 14)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
 
-### `npm run eject`
+```bash
+git clone https://github.com/yourusername/eat-the-frog.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Navigate to the project directory
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd eat-the-frog
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Install dependencies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+4. Start project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your browser and visit `http://localhost:5173`
+
+## Usage
+
+1. Enter your most important task for the day. Then, subsequent tasks.
+2. Set the amount of time you want to dedicate to this task
+3. Start the timer and focus on completing your task
+4. Get notified when your time is up
+
+## Acknowledgments
+
+- Inspired by Mark Twain's quote about eating frogs
+- Built with modern React best practices learnt from Alura(www.alura.com.br)
+- Designed with productivity in mind
+
+## Contact
+
+Clara Quintela - [@ClaraQ](https://mastodon.social/@ClaraQ)
+
+Project Link: [https://github.com/yourusername/eat-the-frog](https://github.com/yourusername/eat-the-frog)

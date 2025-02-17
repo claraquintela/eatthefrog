@@ -54,7 +54,7 @@ npm install
 npm start
 ```
 
-5. Open your browser and visit `http://localhost:5173`
+5. Open your browser and visit `http://localhost:3001`
 
 ## Usage
 

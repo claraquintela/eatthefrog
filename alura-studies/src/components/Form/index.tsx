@@ -33,9 +33,9 @@ class Form extends React.Component{
                         required
                     />
                 </div>
-                <Button
-                    text = "Add"
-                />
+                <Button>
+                    Add task
+                </Button>
             </form>
       
         )

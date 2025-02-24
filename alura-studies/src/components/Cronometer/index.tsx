@@ -10,7 +10,9 @@ export default function Cronometer () {
             <div className={style.relogioWrapper}>
                 <Timer/>
             </div>
-            <Button text={"Start"}/>
+            <Button>
+                Start
+            </Button>
 
         </div>
     )
